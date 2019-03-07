@@ -1,0 +1,25 @@
+ul {
+    list-style-image: url('imagem/setaR.gif');
+}
+
+.e5 {
+    color: red;
+    font-size: 12px;
+    font-family: "Verdana";
+}
+
+.li1 {
+    list-style-type: none;
+    border-bottom: 1px dotted red;
+}
+
+.e5.ul:hover {
+    color: green;
+    border-bottom: 1px dotted green;
+    list-style-image: url('imagem/setaG.gif')
+}
+
+.li1:hover {
+    color: green;
+    border-bottom: 1px dotted green;
+    list-style-image: url('imagem/setaG.gif')
